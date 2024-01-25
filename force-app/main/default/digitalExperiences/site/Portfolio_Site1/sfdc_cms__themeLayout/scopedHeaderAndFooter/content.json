@@ -1,0 +1,55 @@
+{
+  "type" : "sfdc_cms__themeLayout",
+  "title" : "Scoped Header and Footer",
+  "contentBody" : {
+    "component" : {
+      "attributes" : { },
+      "children" : [ {
+        "children" : [ {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "sectionConfig" : "{\"UUID\":\"e6a6b091-0bb8-46f3-b31a-8f91aa2c088a\",\"columns\":[{\"UUID\":\"c9c4b277-1b96-4f09-8472-288b6dbddfcb\",\"columnName\":\"Column 1\",\"columnKey\":\"headerSection\",\"columnWidth\":\"12\",\"seedComponents\":null}]}"
+          },
+          "children" : [ {
+            "id" : "c9c4b277-1b96-4f09-8472-288b6dbddfcb",
+            "name" : "headerSection",
+            "title" : "Cabeçalho do tema",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "e6a6b091-0bb8-46f3-b31a-8f91aa2c088a",
+          "type" : "component"
+        } ],
+        "id" : "4f218a58-042a-4cb2-afaa-f463221f5dfe",
+        "name" : "header",
+        "title" : "Cabeçalho do tema",
+        "type" : "region"
+      }, {
+        "children" : [ {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "sectionConfig" : "{\"UUID\":\"93a9061a-8296-407e-9000-a75a212454c7\",\"columns\":[{\"UUID\":\"b6aa6cc5-b0e4-460f-81ae-bdf7af5b6967\",\"columnName\":\"Column 1\",\"columnKey\":\"footerSection\",\"columnWidth\":\"12\",\"seedComponents\":null}]}"
+          },
+          "children" : [ {
+            "id" : "b6aa6cc5-b0e4-460f-81ae-bdf7af5b6967",
+            "name" : "footerSection",
+            "title" : "Rodapé do tema",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "93a9061a-8296-407e-9000-a75a212454c7",
+          "type" : "component"
+        } ],
+        "id" : "33733432-27db-4ddf-b3cf-d397d88ee0b4",
+        "name" : "footer",
+        "title" : "Rodapé do tema",
+        "type" : "region"
+      } ],
+      "definition" : "community_byo:scopedHeaderAndFooter",
+      "id" : "bd05a897-674e-43f8-91ed-b2ab777c4bb0",
+      "type" : "component"
+    }
+  }
+}
